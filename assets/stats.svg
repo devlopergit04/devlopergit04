@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#302b63"/><stop offset="1" stop-color="#0f0c29"/></linearGradient></defs>
+  <style>
+    .c{opacity:0;animation:pop .6s cubic-bezier(.3,1.6,.5,1) forwards;transform-box:fill-box;transform-origin:center}
+    .big{font:800 34px 'Segoe UI',Ubuntu,sans-serif}.lbl{font:500 14px 'Segoe UI',Ubuntu,sans-serif;fill:#c7d2fe}
+    .ring{fill:none;stroke-width:5;stroke-dasharray:220;stroke-dashoffset:220;animation:draw 1.8s .3s forwards}
+    @keyframes pop{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:scale(1)}}
+    @keyframes draw{to{stroke-dashoffset:0}}
+  </style>
+  <rect width="800" height="150" rx="20" fill="url(#bg)"/>
+  <g class="c" style="animation-delay:.1s"><circle class="ring" cx="100" cy="75" r="35" stroke="#ff6ec4"/><text class="big" x="100" y="87" text-anchor="middle" fill="#ff6ec4">5+</text><text class="lbl" x="100" y="135" text-anchor="middle">Years Coding</text></g>
+  <g class="c" style="animation-delay:.3s"><circle class="ring" cx="300" cy="75" r="35" stroke="#7873f5"/><text class="big" x="300" y="87" text-anchor="middle" fill="#7873f5">50+</text><text class="lbl" x="300" y="135" text-anchor="middle">Projects Built</text></g>
+  <g class="c" style="animation-delay:.5s"><circle class="ring" cx="500" cy="75" r="35" stroke="#4ade80"/><text class="big" x="500" y="87" text-anchor="middle" fill="#4ade80">1K+</text><text class="lbl" x="500" y="135" text-anchor="middle">Commits / Year</text></g>
+  <g class="c" style="animation-delay:.7s"><circle class="ring" cx="700" cy="75" r="35" stroke="#facc15"/><text class="big" x="700" y="87" text-anchor="middle" fill="#facc15">∞</text><text class="lbl" x="700" y="135" text-anchor="middle">Cups of Coffee</text></g>
+</svg>
