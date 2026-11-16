@@ -1,12 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="50" viewBox="0 0 600 50">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="50" viewBox="0 0 700 50">
   <style>
     text{font:600 24px 'Fira Code',Consolas,monospace;fill:#7873f5}
-    .l{opacity:0;clip-path:inset(0 100% 0 0);animation:type 12s steps(28) infinite}
-    .l2{animation-delay:3s}.l3{animation-delay:6s}.l4{animation-delay:9s}
-    @keyframes type{0%{opacity:1;clip-path:inset(0 100% 0 0)}10%{clip-path:inset(0 0 0 0)}20%{opacity:1;clip-path:inset(0 0 0 0)}25%,100%{opacity:0}}
+    .l{opacity:0;clip-path:inset(0 100% 0 0);animation:type 24s steps(30) infinite}
+    .l2{animation-delay:3s;fill:#ff6ec4}.l3{animation-delay:6s;fill:#4ade80}.l4{animation-delay:9s;fill:#38bdf8}
+    .l5{animation-delay:12s;fill:#facc15}.l6{animation-delay:15s;fill:#a78bfa}.l7{animation-delay:18s;fill:#fb923c}.l8{animation-delay:21s;fill:#22d3ee}
+    @keyframes type{0%{opacity:1;clip-path:inset(0 100% 0 0)}5%{clip-path:inset(0 0 0 0)}10%{opacity:1;clip-path:inset(0 0 0 0)}12.5%,100%{opacity:0}}
   </style>
-  <text class="l l1" x="300" y="33" text-anchor="middle">&gt; Building beautiful web apps 🚀</text>
-  <text class="l l2" x="300" y="33" text-anchor="middle">&gt; Writing clean, tested code 🧪</text>
-  <text class="l l3" x="300" y="33" text-anchor="middle">&gt; Turning coffee into features ☕</text>
-  <text class="l l4" x="300" y="33" text-anchor="middle">&gt; Always learning something new 📚</text>
+  <text class="l l1" x="350" y="33" text-anchor="middle">&gt; Building beautiful web apps 🚀</text>
+  <text class="l l2" x="350" y="33" text-anchor="middle">&gt; Writing clean, tested code 🧪</text>
+  <text class="l l3" x="350" y="33" text-anchor="middle">&gt; Turning coffee into features ☕</text>
+  <text class="l l4" x="350" y="33" text-anchor="middle">&gt; Crafting smart Telegram bots 🤖</text>
+  <text class="l l5" x="350" y="33" text-anchor="middle">&gt; Integrating AI into everything 🧠</text>
+  <text class="l l6" x="350" y="33" text-anchor="middle">&gt; Shipping with Docker &amp; CI/CD 🐳</text>
+  <text class="l l7" x="350" y="33" text-anchor="middle">&gt; Designing pixel-perfect UIs 🎨</text>
+  <text class="l l8" x="350" y="33" text-anchor="middle">&gt; Always learning something new 📚</text>
 </svg>

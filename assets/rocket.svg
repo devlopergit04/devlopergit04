@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="320" viewBox="0 0 420 320">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f0c29"/><stop offset="1" stop-color="#302b63"/></linearGradient>
+<linearGradient id="fire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#facc15"/><stop offset=".5" stop-color="#fb923c"/><stop offset="1" stop-color="#ff6ec4" stop-opacity="0"/></linearGradient></defs>
+<style>
+.r{animation:sh .15s linear infinite alternate}
+.f{transform-box:fill-box;transform-origin:top center;animation:fi .12s ease-in-out infinite alternate}
+.s{stroke:#fff;stroke-width:2;animation:ln 1s linear infinite}
+.cl{fill:#ffffff20;animation:cl 8s linear infinite}
+@keyframes sh{from{transform:translate(-1px,0)}to{transform:translate(1px,-2px)}}
+@keyframes fi{from{transform:scaleY(.8)}to{transform:scaleY(1.2)}}
+@keyframes ln{from{transform:translateY(-320px)}to{transform:translateY(320px)}}
+@keyframes cl{from{transform:translateY(-100px)}to{transform:translateY(420px)}}
+</style>
+<rect width="420" height="320" rx="20" fill="url(#bg)"/>
+<line class="s" x1="60" y1="0" x2="60" y2="40" opacity=".4"/><line class="s" x1="340" y1="0" x2="340" y2="60" opacity=".5" style="animation-delay:.4s"/><line class="s" x1="120" y1="0" x2="120" y2="30" opacity=".3" style="animation-delay:.7s"/><line class="s" x1="290" y1="0" x2="290" y2="30" opacity=".3" style="animation-delay:.2s"/>
+<ellipse class="cl" cx="80" cy="0" rx="50" ry="16"/><ellipse class="cl" cx="340" cy="0" rx="60" ry="18" style="animation-delay:4s"/>
+<g class="r">
+<path class="f" d="M192 220 q18 90 18 90 q0 0 18 -90z" fill="url(#fire)"/>
+<path d="M210 40 q40 40 40 120 v60 h-80 v-60 q0 -80 40 -120z" fill="#e0e7ff"/>
+<path d="M170 170 l-30 50 h30z" fill="#ff6ec4"/><path d="M250 170 l30 50 h-30z" fill="#ff6ec4"/>
+<rect x="200" y="200" width="20" height="30" fill="#7873f5"/>
+<circle cx="210" cy="120" r="20" fill="#302b63" stroke="#7873f5" stroke-width="5"/>
+<circle cx="204" cy="114" r="5" fill="#38bdf8"/>
+<text x="210" y="175" text-anchor="middle" font-family="Consolas,monospace" font-weight="700" font-size="14" fill="#7873f5">v4.0</text>
+</g>
+<text x="210" y="300" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-weight="700" font-size="16" fill="#facc15">Deploying to production… 🚀</text>
+</svg>

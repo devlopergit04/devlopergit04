@@ -11,33 +11,47 @@
   main{max-width:960px;margin:auto;padding:32px 20px}
   img{width:100%;display:block}
   .grid{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:center;margin:32px 0}
+  .crew{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0}
+  .crew figure{margin:0;text-align:center}
   .card{background:#ffffff0d;border:1px solid #ffffff1a;border-radius:20px;padding:24px;backdrop-filter:blur(6px)}
   h2{background:linear-gradient(90deg,var(--pink),var(--violet),var(--green));-webkit-background-clip:text;background-clip:text;color:transparent}
   li{margin:6px 0}
-  @media(max-width:700px){.grid{grid-template-columns:1fr}}
+  section{margin:32px 0}
+  @media(max-width:700px){.grid,.crew{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <main>
   <img src="assets/header.svg" alt="Hi, I'm Developer04"/>
-  <img src="assets/typing.svg" alt="" style="max-width:600px;margin:16px auto"/>
+  <img src="assets/typing.svg" alt="" style="max-width:700px;margin:16px auto"/>
   <section class="grid">
     <div class="card">
       <h2>👨‍💻 About Me</h2>
       <ul>
-        <li>🔭 Building full‑stack web apps</li>
-        <li>🌱 Learning cloud, AI & system design</li>
+        <li>🔭 Building full‑stack web apps &amp; Telegram bots</li>
+        <li>🌱 Learning cloud, AI &amp; system design</li>
+        <li>🤖 Automating everything with Python &amp; Node.js</li>
         <li>👯 Open to open‑source collaboration</li>
-        <li>💬 JavaScript · React · Node.js · Python</li>
+        <li>💬 JavaScript · TypeScript · React · Node.js · Python</li>
       </ul>
     </div>
     <img src="assets/coder.svg" alt="coding robot"/>
   </section>
+  <img src="assets/terminal.svg" alt="terminal"/>
+  <h2>🎭 Coding Crew</h2>
+  <div class="crew">
+    <figure><img src="assets/astronaut.svg" alt="astronaut"/><figcaption>🧑‍🚀 Space Coder</figcaption></figure>
+    <figure><img src="assets/cat.svg" alt="cat"/><figcaption>🐱 Debug Cat</figcaption></figure>
+    <figure><img src="assets/rocket.svg" alt="rocket"/><figcaption>🚀 Deploy Rocket</figcaption></figure>
+  </div>
   <img src="assets/divider.svg" alt=""/>
   <h2>⚡ Skills</h2>
   <img src="assets/skills.svg" alt="skills"/>
+  <h2>🛤️ Journey</h2>
+  <img src="assets/timeline.svg" alt="journey"/>
   <h2>📊 Stats</h2>
   <img src="assets/stats.svg" alt="stats"/>
+  <section class="grid"><img src="assets/languages.svg" alt="code dna"/><div class="card"><h2>💡 Motto</h2><p>Make it work, make it right, make it fast.</p></div></section>
   <img src="assets/footer.svg" alt="footer" style="margin-top:32px"/>
 </main>
 </body>
