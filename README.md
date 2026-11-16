@@ -117,18 +117,20 @@ Hey there! I'm **Developer04**, a programmer who loves turning ideas into fast, 
 <br/><br/>
 
 <table><tr>
-<td width="60%"><img src="https://github-readme-stats.vercel.app/api?username=devlopergit04&show_icons=true&theme=radical&hide_border=true&bg_color=0f0c29" width="100%"/></td>
+<td width="60%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=devlopergit04&theme=radical" width="100%"/></td>
 <td width="40%"><img src="./assets/languages.svg" width="100%" alt="code dna"/></td>
 </tr></table>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devlopergit04&layout=compact&theme=radical&hide_border=true&bg_color=0f0c29" height="165"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=devlopergit04&theme=radical" height="165"/>
 <img src="https://streak-stats.demolab.com?user=devlopergit04&theme=radical&hide_border=true&background=0f0c29" height="165"/>
 
 <br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=devlopergit04&bg_color=0f0c29&color=ff6ec4&line=7873f5&point=4ade80&area=true&hide_border=true" width="100%"/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=devlopergit04&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1" width="100%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=devlopergit04&theme=radical" width="100%"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=devlopergit04&theme=radical" width="49%"/> <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=devlopergit04&theme=radical&utcOffset=3.5" width="49%"/>
 
 <img src="./assets/divider.svg" width="100%"/>
 
