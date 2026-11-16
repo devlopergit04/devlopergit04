@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="50" viewBox="0 0 600 50">
+  <style>
+    text{font:600 24px 'Fira Code',Consolas,monospace;fill:#7873f5}
+    .l{opacity:0;clip-path:inset(0 100% 0 0);animation:type 12s steps(28) infinite}
+    .l2{animation-delay:3s}.l3{animation-delay:6s}.l4{animation-delay:9s}
+    @keyframes type{0%{opacity:1;clip-path:inset(0 100% 0 0)}10%{clip-path:inset(0 0 0 0)}20%{opacity:1;clip-path:inset(0 0 0 0)}25%,100%{opacity:0}}
+  </style>
+  <text class="l l1" x="300" y="33" text-anchor="middle">&gt; Building beautiful web apps 🚀</text>
+  <text class="l l2" x="300" y="33" text-anchor="middle">&gt; Writing clean, tested code 🧪</text>
+  <text class="l l3" x="300" y="33" text-anchor="middle">&gt; Turning coffee into features ☕</text>
+  <text class="l l4" x="300" y="33" text-anchor="middle">&gt; Always learning something new 📚</text>
+</svg>
